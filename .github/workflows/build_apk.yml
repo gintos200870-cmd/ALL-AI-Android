@@ -12,9 +12,10 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
+          - name: Generate ALL AI Full Source Code.
 
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
+      
+    
 
       - name: Generate ALL AI Full Source Code
         run: |
